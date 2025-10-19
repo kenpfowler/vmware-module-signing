@@ -5,7 +5,7 @@ CERT_NAME="MOK.der"
 SIGN_TOOL="/usr/src/linux-headers-$(uname -r)/scripts/sign-file"
 
 
-# Check whether the VMware signing directory exists
+# Check whether a directory for vmware keys to exist
 VMWARE_SIGNING_DIRECTORY="$HOME/vmware-signing"
 
 echo "Checking that directory with keys exists..."
