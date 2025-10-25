@@ -12,3 +12,9 @@ Run `sudo apt update && sudo apt install openssl mokutil`
 1. Call the `enroll-vmware-mok.sh` script as superuser
 2. Reboot your machine and enroll your Machine Owner Key (MOK)
 3. Call the `sign-vmware-modules.sh` script as superuser
+
+## Kernel Updates
+
+You will have to re-sign the VMware kernel modules each time the kernel is updated.
+
+Run `sign-vmware-modules.sh` to resign the modules.
